@@ -1,0 +1,106 @@
+{
+  "team": [
+    {
+      "img": "src/assets/images/team/roman",
+      "img_url": "src/assets/images/team/roman.png",
+      "alt": "Роман Данілюк Co-founder, директор",
+      "name": "Роман Данілюк",
+      "position": "Co-founder, директор",
+      "side": "372"
+    },
+    {
+      "img": "src/assets/images/team/bella",
+      "img_url": "src/assets/images/team/bella.png",
+      "alt": "Ізабелла Co-founder, проджект",
+      "name": "Ізабелла",
+      "position": "Co-founder, проджект",
+      "side": "372"
+    },
+    {
+      "img": "src/assets/images/team/snizhana",
+      "img_url": "src/assets/images/team/snizhana.png",
+      "alt": "Гембік Сніжана Графічний дизайнер, UX/UI дизайнер",
+      "name": "Гембік Сніжана",
+      "position": "Графічний дизайнер, UX/UI дизайнер",
+      "side": "372"
+    },
+    {
+      "img": "src/assets/images/team/lena",
+      "img_url": "src/assets/images/team/lena.png",
+      "alt": "Лєна. СММ",
+      "name": "Лєна",
+      "position": "СММ",
+      "side": "372"
+    }
+  ],
+  "services": [
+    {
+      "service": "Фотозйомка та відеозйомка",
+      "details": [
+        "Фото зйомка",
+        "Контент для соцмереж",
+        "Предметна зйомка",
+        "Бізнес портрет",
+        "Репортажна зйомка",
+        "Студійні зйомки"
+      ],
+      "sup": 6,
+      "price": 300,
+      "duration": 5
+    },
+    {
+      "service": "Препродакшн",
+      "details": [
+        "Розробка ідеї/концепції",
+        "Написання сценаріїв",
+        "Пошук акторів/локацій",
+        "Організація знімального процесу"
+      ],
+      "sup": 4,
+      "price": 400,
+      "duration": 6
+    },
+    {
+      "service": "Продакшн",
+      "details": [],
+      "sup": 6,
+      "price": 500,
+      "duration": 7
+    },
+    {
+      "service": "Постпродакшн",
+      "details": [],
+      "sup": 6,
+      "price": 400,
+      "duration": 8
+    },
+    {
+      "service": "Графічний дизайн",
+      "details": [],
+      "sup": 2,
+      "price": 600,
+      "duration": 14
+    },
+    {
+      "service": "Створення сайтів",
+      "details": [],
+      "sup": 4,
+      "price": 500,
+      "duration": 15
+    },
+    {
+      "service": "Маркетинг та PR",
+      "details": [],
+      "sup": 5,
+      "price": 700,
+      "duration": 7
+    },
+    {
+      "service": "SMM",
+      "details": [],
+      "sup": 6,
+      "price": 400,
+      "duration": 4
+    }
+  ]
+}

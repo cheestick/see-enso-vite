@@ -1,0 +1,37 @@
+.service__details {
+  counter-reset: detail-number;
+}
+
+.service__details::before,
+.service__details::after {
+  display: flex;
+  align-items: center;
+  place-content: center;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  color: var(--brand-white);
+  background-color: var(--brand-black);
+  /* box-shadow: var(--shadow-small); */
+  box-shadow: 31 -30 12 0 rgba(89, 52, 171, 0.01),
+    20 -19 11 0 rgba(89, 52, 171, 0.6), 11 -11 9 0 rgba(89, 52, 171, 0.2),
+    5 -5 7 0 rgba(89, 52, 171, 0.34), 1 -1 4 9 rgba(89, 52, 171, 0.39);
+}
+
+.service__details::before {
+  content: "від " attr(data-serv-price) "$";
+  width: 133px;
+  height: 133px;
+}
+.service__details::after {
+  content: attr(data-serv-duration) " днів";
+  width: 88px;
+  height: 88px;
+}
+
+.service__details li {
+  counter-increment: detail-number;
+}
+
+.service__details li:before {
+  content: "0" counter(detail-number) ".";
+}

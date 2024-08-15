@@ -1,0 +1,66 @@
+:root {
+  --c-brand: #0f414c;
+  --c-brand-accent: #d7e6f2;
+
+  --pure-white: #ffffff;
+  --pure-black: #000000;
+  --pure-white-rgb: 255, 255, 255;
+  --pure-black-rgb: 0, 0, 0;
+
+  --brand-white: #f4f4f4;
+  --brand-black: #0b0b0b;
+  --brand-main: #6a21b2;
+  --brand-main-dull: #421371;
+  --brand-accent: #5a34ac;
+  --brand-dull: #313131;
+  --burger-bg: #292929;
+  --burger-icon: rgba(255, 255, 255, 0.5);
+  --menu-bg: #323232;
+  --menu-text: var(--brand-white);
+  --cta-stroke: var(--brand-white);
+  --cta-active: var(--brand-main);
+  --sup-col: #aaaaaa;
+
+  --case-deco: var(--brand-accent);
+  --case-hover: var(--brand-accent);
+  --case-chip-stroke: #b3b3b3;
+  --case-chip-text: rgba(255, 255, 255, 0.62);
+  --case-slider-idle: var(--brand-dull);
+  --case-slider-hover: #595959;
+  --case-slider-active: var(--brand-main);
+
+  --text-col: var(--pure-white);
+  --text-col-deco: var(--brand-main-dull);
+  --text-col-start: #241d2a;
+
+  --service-text-idle: #2c2c2c;
+  --service-bg: #0d0d0d;
+
+  --team-text-secondary: #404040;
+
+  --brand-logos: rgba(11, 11, 11, 0.41);
+
+  --deco-stroke: 1px solid var(--brand-accent);
+
+  --min: 1rem;
+  --max: 2rem;
+  --clamped-font-size: clamp(var(--min), 2.5vw, var(--max));
+
+  --gradient-wide: 180deg, #55416a 0%, var(--brand-black) 22%;
+  --gradient-underlying: 180deg, var(--brand-black) 87%, #04040400;
+
+  --shadow-bg: 0 -584 164 0 rgba(212, 171, 252, 0),
+    0 -374 150 0 rgba(212, 171, 252, 0.03),
+    0 -210 126 0 rgba(212, 171, 252, 0.1), 0 -94 94 0 rgba(212, 171, 252, 0.17),
+    0 -23 51 0 rgba(212, 171, 252, 0.2);
+
+  --shadow-small: 31 -30 12 0 rgba(89, 52, 171, 0.01),
+    20 -19 11 0 rgba(89, 52, 171, 0.6), 11 -11 9 0 rgba(89, 52, 171, 0.2),
+    5 -5 7 0 rgba(89, 52, 171, 0.34), 1 -1 4 9 rgba(89, 52, 171, 0.39);
+
+  --shadow-footer: 0 4 4 0 rgba(0, 0, 0, 0.25),
+    1309 -1065 472 0 rgba(255, 219, 244, 0.01),
+    837 -682 432 0 rgba(255, 219, 244, 0.09),
+    471 -383 364 rgba(255, 219, 244, 0.3),
+    209 -170 270 rgba(255, 219, 244, 0.51);
+}

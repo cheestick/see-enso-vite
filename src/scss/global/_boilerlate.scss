@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  background-color: var(--c-brand);
+}
+
+h1,
+h2,
+h3,
+p {
+  color: var(--c-brand-accent);
+}
+
+.branding {
+  color: var(--brand-white);
+  background-color: var(--brand-black);
+}
+
+.brand-title {
+  text-transform: uppercase;
+}
